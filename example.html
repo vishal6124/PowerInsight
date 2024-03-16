@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="./example.css">
+</head>
+
+<body>
+  
+    <header>
+        <h2 class="logo disappear appear">PowerInsight</h2>
+        <div class="nav-links">
+        <nav class="navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#">FAQs</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+
+        </div>
+        <img src="./images/navbar/menu.svg" alt="menu hamburger" class="menu-hamburger">
+    </header>
+
+    <div class="login-disappear">
+        <section id="home" class="disappear appear">
+        <div class="hero disappear appear">
+            <h1 class="title">Welcome to PowerInsight</h1>
+            <p class="hero-para">PowerInsight transforms your energy management. Analyze, set goals, and control in real-time. Power up with simplicity. Power up with PowerInsight.</p>
+        </div>
+        </section>
+    
+        <section id="about" class="disappear appear">
+        <h2>About</h2>
+        </section>
+    
+        <section id="features" class="disappear appear">
+        <h2>Features</h2>
+        </section>
+    </div>
+
+    <div class="login-appear">
+        <div class="wrapper active-popup disappear appear">
+            <div class="form-box login">
+                <h2>User Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label> <input type="checkbox">Remember Me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+
+                    <button type="submit" class="btn">Login</button>
+
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                    <div class="login-register">
+                        <p>Are You an Admin? <a href="#" class="register-link">Admin Login</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>User Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="information-circle"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label>Full Name</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="call"></ion-icon>
+                        </span>
+                        <input type="tel" required>
+                        <label>Phone Number</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label> <input type="checkbox">I Agree to the Terms & Conditions</label>
+                    </div>
+
+                    <button type="submit" class="btn">Register</button>
+
+                    <div class="login-register">
+                        <p>Already have an account? <a class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  
+
+  <!-- javascript -->
+  <script src="./navbar.js"></script>
+  <script src="./scorll.js"></script>
+  <script src="./login.js"></script>
+  <script src="./login-popup.js"></script>
+</body>
+</html>

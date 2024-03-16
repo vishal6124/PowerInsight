@@ -1,0 +1,22 @@
+.small-box{
+    background-color: white;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 12rem;
+    gap: 10px;
+    align-self: center;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+h3{
+    color: black;
+}

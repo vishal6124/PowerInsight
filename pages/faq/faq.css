@@ -1,0 +1,299 @@
+/* navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    min-height: 100vh;
+    background: url(../../images/homepage/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #13475c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .logo{
+    font-size: 2em;
+    color: white;
+    user-select: none;
+  }
+  
+  .navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+  }
+  
+  .navigation a:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background: #15F4EE;
+    border-radius: 5px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: 0.3s;
+  }
+  
+  .navigation a:hover::after{
+    background: #15F4EE;
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  
+  .navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.3s ease;
+  }
+  
+  .navigation .btnLogin-popup:hover{
+    background: white;
+    color: #15F4EE;
+  }
+  
+  header .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+  }
+  
+  
+  .menu-hamburger:hover { /* Pop-out effect on hover */
+    transform: scale(1.2); /* Adjust the scale factor for the pop-out effect */
+  }
+  
+  
+  .nav-links.mobile-menu ~ .menu-hamburger { /* Animate the hamburger icon when the mobile menu is active */
+    transform: scale(1.2); /* Adjust the scale factor for the pop-out effect */
+  }
+  
+  /* media queries */
+  @media screen and (max-width: 900px){
+    
+    header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      box-sizing: border-box;
+      z-index: 100;
+    }
+  
+    header .logo{
+      position: fixed;
+      top: 30px;
+      left: 30px;
+    }
+    
+    header .menu-hamburger{
+      display: block;
+      z-index: 110;
+      top: 35px;
+      padding: 0;
+    }
+  
+    .nav-links{
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: rgba(255, 243, 243, 0.20);
+      backdrop-filter: blur(16px);
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -100%;
+      transition: all 0.5s ease;
+    }
+  
+    
+  .nav-links.mobile-menu{
+    margin-left: 0;
+  }
+  
+    .nav-links .navigation{
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    header .nav-links .navigation a{
+      margin: 25px 0;
+      font-size: 1.2em;
+    }
+  
+    header .nav-links .navigation button{
+      margin: 20px 0;
+      font-size: 1.2em;
+    }   
+  }
+  
+  /* loading and disappearing animations */
+  .hide {
+    animation-name: disappearAnimation;
+    animation-duration: 450ms;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes disappearAnimation {
+    0% {
+      opacity: 1;
+    }
+  
+    10% {
+      opacity: 0.9;
+    }
+  
+    20% {
+      opacity: 0.8;
+    }
+  
+    30% {
+      opacity: 0.7;
+    }
+  
+    40% {
+      opacity: 0.6;
+    }
+  
+    50% {
+      opacity: 0.5;
+    }
+  
+    60% {
+      opacity: 0.4;
+    }
+  
+    70% {
+      opacity: 0.3;
+    }
+  
+    80% {
+      opacity: 0.2;
+    }
+  
+    90% {
+      opacity: 0.1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  
+  .appear{
+    animation-name: loadingAnimation;
+    animation-duration: 450ms;
+    animation-fill-mode: forwards;
+    transition-duration: 0.5s;
+  }
+  
+  @keyframes loadingAnimation{
+    0%{
+      opacity: 0;
+    }
+  
+    10%{
+      opacity: 0.1;
+    }
+  
+    20%{
+      opacity: 0.2;
+    }
+  
+    30%{
+      opacity: 0.3;
+    }
+  
+    40%{
+      opacity: 0.4;
+    }
+  
+    50%{
+      opacity: 0.5;
+    }
+  
+    60%{
+      opacity: 0.6;
+    }
+  
+    70%{
+      opacity: 0.7;
+    }
+  
+    80%{
+      opacity: 0.8;
+    }
+  
+    90%{
+      opacity: 0.9;
+    }
+  
+    100%{
+      opacity: 1;
+    }
+  }
+  
+  
+  section{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .navigation a:hover, 
+  .navigation a.active{
+    color: #15F4EE;
+  }
+
+  /* faq section */
+

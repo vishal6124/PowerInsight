@@ -1,0 +1,11 @@
+admin_id,username,password,admin_type
+S9210,adminS9210,admin_passwordS9210,suppliers
+G4417,adminG4417,admin_passwordG4417,government
+A5060,adminA5060,admin_passwordA5060,admin
+A2184,adminA2184,admin_passwordA2184,admin
+S9314,adminS9314,admin_passwordS9314,suppliers
+A6525,adminA6525,admin_passwordA6525,admin
+S3587,adminS3587,admin_passwordS3587,suppliers
+U8144,adminU8144,admin_passwordU8144,user
+A8226,adminA8226,admin_passwordA8226,admin
+S9992,adminS9992,admin_passwordS9992,suppliers
