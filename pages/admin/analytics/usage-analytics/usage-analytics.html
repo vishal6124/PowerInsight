@@ -44,13 +44,10 @@
                 Analytics
               </div>
               <li class="item">
-                <a href="#">First sublink </a>
+                <a href="#">Usage Analytics </a>
               </li>
               <li class="item">
-                <a href="#">First sublink</a>
-              </li>
-              <li class="item">
-                <a href="#">First sublink</a>
+                <a href="#">Predictive Analytics</a>
               </li>
             </ul>
           </li>
@@ -93,35 +90,6 @@
     </nav>
 
     <main class="main">
-      <!-- <div class="first-row">
-        <div class="small-box revenue-box">
-          <h2 class="small-box-text">Revenue ₹</h2>
-          <h3 class="revenue">509453</h3>
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="green" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
-          </svg>
-          <p>Up 12% from last month</p>
-        </div>
-
-        <div class="small-box users-box">
-          <h2 class="small-box-text">Total Users</h2>
-          <h3 class="revenue">509453</h3>
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="green" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
-          </svg>
-          <p>Up 12% from last month</p>
-        </div>
-
-        <div class="small-box consumption-box">
-          <h2 class="small-box-text">Units Used</h2>
-          <h3 class="revenue">509453</h3>
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="red" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
-          </svg> 
-          <p>Up 12% from last month</p>
-        </div>
-      </div> -->
-
       <div class="second-row">
         <div class="big-box graph-box">
           <h2 class="stacked-area-chart"> Monthly Usage by Subdivision </h2><br>
@@ -133,6 +101,13 @@
         <div class="big-box line-box">
           <h2 class="stacked-area-chart"> Userbase Growth </h2><br>
           <canvas id="lineChart" style="width:100%;max-width:700px"></canvas>
+        </div>
+      </div>
+
+      <div class="second-row">
+        <div class="big-box line-box">
+          <h2 class="stacked-area-chart"> Peak Usage Hours </h2><br>
+          <canvas id="areaChart" style="width:100%;max-width:700px"></canvas>
         </div>
       </div>
 
@@ -191,5 +166,7 @@
     <script src="./js/line-chart.js"></script>
     <!-- heat-map -->
     <script src="./js/heat-map.js"></script>
+    <!-- area-chart -->
+    <script src="./js/area-chart.js"></script>
   </body>
 </html>
