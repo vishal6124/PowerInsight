@@ -32,5 +32,10 @@
 }
 
 .yellow-star{
-    padding: -40%;
+    margin-right: -30px;
+    margin-left: -20px;
+}
+
+.chart{
+    margin-top: 30px;
 }

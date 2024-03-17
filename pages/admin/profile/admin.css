@@ -145,14 +145,13 @@ html{
 }
 
 .third-row{
-  margin-top: 90px;
+  margin: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   background-color: inherit;
-  margin-bottom: -20px;
 }
 
 .internal{
@@ -173,6 +172,7 @@ html{
 }
 
 .area-box{
+  margin-top: 70px;
   margin-bottom: -70px;
 }
 
