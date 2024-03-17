@@ -1,0 +1,14 @@
+.med-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 41rem;
+    height: 30rem;
+    background-color: white;
+    padding: 1px;
+}
+
+.pie-chart{
+    margin-top: -10px;
+}

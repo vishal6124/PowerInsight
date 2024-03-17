@@ -1,0 +1,36 @@
+.small-box{
+    background-color: white;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 12rem;
+    gap: 10px;
+    align-self: center;
+}
+
+.ratings-box{
+    color: black;
+    gap: 20px;
+    height: 14rem;
+    
+}
+
+.star{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20%;
+}
+
+.rating{
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.yellow-star{
+    padding: -40%;
+}
