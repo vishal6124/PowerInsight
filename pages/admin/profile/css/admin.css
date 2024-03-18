@@ -125,54 +125,66 @@ html{
   flex-direction: column;
 }
 
-.first-row{
-  margin: 20px;
-  margin-top: 90px;
+.profile-box {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  
+  margin: 50px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.second-row{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.third-row{
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  background-color: inherit;
-}
-
-.internal{
+.left-section {
+  width: 30%;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  gap: 30px;
-  margin-bottom: 30px;
+  align-items: center;
+  background-color: #e8e8e8;
+  border-radius: 10px 0 0 10px;
 }
 
-.bottom{
-  height: 200px;
-  width: 100px;
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ccc;
 }
 
-.line-box, .heat-map{
-  margin-top: 20px !important;
+.right-section {
+  width: 70%;
+  padding: 20px;
 }
 
-.area-box{
-  margin-top: 70px;
-  margin-bottom: -70px;
+.personal-details h3,
+.connection-details h3 {
+  margin-bottom: 10px;
 }
 
+.connection-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.connection-details ul li {
+  margin-bottom: 5px;
+}
+
+.profile-box{
+  margin-top: 110px;
+}
+
+.pfp{
+  border-radius: 50%;
+}
+
+.username{
+  font-size: 2.rem;
+}
+
+.headings{
+  font-size: 1.5rem;
+}
+p{
+  font-size: 1rem;
+}
