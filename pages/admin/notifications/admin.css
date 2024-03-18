@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 .sidebar {
   position: fixed;
   height: 100%;
@@ -24,12 +23,10 @@ html{
   font-size: 25px;
   padding: 0 15px;
 }
-
 .sidebar a {
   color: #fff;
   text-decoration: none;
 }
-
 .menu-content {
   position: relative;
   height: 100%;
@@ -37,28 +34,23 @@ html{
   margin-top: 40px;
   overflow-y: scroll;
 }
-
 .menu-content::-webkit-scrollbar {
   display: none;
 }
-
 .menu-items {
   height: 100%;
   width: 100%;
   list-style: none;
   transition: all 0.4s ease;
 }
-
 .submenu-active .menu-items {
   transform: translateX(-56%);
 }
-
 .menu-title {
   color: #fff;
   font-size: 14px;
   padding: 15px 20px;
 }
-
 .item a,
 .submenu-item {
   padding: 16px;
@@ -66,17 +58,14 @@ html{
   width: 100%;
   border-radius: 12px;
 }
-
 .item i {
   font-size: 12px;
 }
-
 .item a:hover,
 .submenu-item:hover,
 .submenu .menu-title:hover {
   background: rgba(255, 255, 255, 0.1);
 }
-
 .submenu-item {
   display: flex;
   justify-content: space-between;
@@ -84,7 +73,6 @@ html{
   color: #fff;
   cursor: pointer;
 }
-
 .submenu {
   position: absolute;
   height: 100%;
@@ -95,20 +83,16 @@ html{
   background: #000026;
   display: none;
 }
-
 .show-submenu ~ .submenu {
   display: block;
 }
-
 .submenu .menu-title {
   border-radius: 12px;
   cursor: pointer;
 }
-
 .submenu .menu-title i {
   margin-right: 10px;
 }
-
 .navbar,
 .main {
   left: 260px;
@@ -116,7 +100,6 @@ html{
   transition: all 0.5s ease;
   z-index: 1000;
 }
-
 .sidebar.close ~ .navbar,
 .sidebar.close ~ .main {
   left: 0;
@@ -162,14 +145,13 @@ html{
 }
 
 .third-row{
-  margin-top: 90px;
+  margin: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   background-color: inherit;
-  margin-bottom: -20px;
 }
 
 .internal{
@@ -185,14 +167,48 @@ html{
   width: 100px;
 }
 
-.line-box, .heat-map{
-  margin-top: 20px !important;
+
+/* Notifications Page Styles */
+.notifications{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 40px;
+  margin-top: 100px;
 }
 
-.area-box{
-  margin-bottom: -70px;
-}
-
-.line-box{
+.outages {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 40px;
+  margin-top: -10px;
   margin-bottom: 20px;
 }
+
+.notifications h2 {
+  margin-top: 0;
+}
+
+.outages h2{
+  margin-top: 0;
+}
+
+.notification-list, .outage-list {
+  list-style: none;
+  padding: 0;
+}
+
+.notification-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.outage-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
