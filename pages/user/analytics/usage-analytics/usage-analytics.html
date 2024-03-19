@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./css/usage-analytics.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- small box css -->
+    <link rel="stylesheet" href="./css/small-box.css">
+    <!-- area-chart css -->
+    <link rel="stylesheet" href="./css/big-box.css">
+    <!-- pie-chart css -->
+    <link rel="stylesheet" href="./css/medium-chart.css">
+    <!-- ratings-box -->
+    <link rel="stylesheet" href="./css/ratings.css">
+    <!-- plotly.js library -->
+    <!-- users-box -->
+    <link rel="stylesheet" href="./css/users.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <a href="#" class="logo">PowerInsight</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          <div class="menu-title">Usage Analytics</div>
+
+          <li class="item">
+            <a href="../../user.html">Overview</a>
+          </li>
+
+          <li class="item">
+            <div class="submenu-item">
+              <span>Analytics</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Analytics
+              </div>
+              <li class="item">
+                <a href="../usage-analytics/usage-analytics.html">Usage Analytics </a>
+              </li>
+              <li class="item">
+                <a href="#">Predictive Analytics</a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <div class="submenu-item">
+              <span>Revenue</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Revenue
+              </div>
+              <li class="item">
+                <a href="../../revenue/user-revenue/user-revenue.html">User Revenue</a>
+              </li>
+              <li class="item">
+                <a href="../../revenue/payments/payments.html">Payments</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="item">
+            <a href="../../notifications/notifications.html">Notifications</a>
+          </li>
+
+          <li class="item">
+            <a href="../../profile/profile.html">Profile</a>
+          </li>
+
+          <li class="item">
+            <a href="../../../../index.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+      <div class="second-row">
+        <div class="big-box graph-box">
+          <h2 class="stacked-area-chart"> Monthly Usage by Subdivision </h2><br>
+          <canvas id="myHistogram" style="width:100%;max-width:700px"></canvas>
+        </div>
+      </div>
+
+      <div class="second-row">
+        <div class="big-box line-box">
+          <h2 class="stacked-area-chart"> Userbase Growth </h2><br>
+          <canvas id="lineChart" style="width:100%;max-width:700px"></canvas>
+        </div>
+      </div>
+
+      <div class="second-row">
+        <div class="big-box line-box">
+          <h2 class="stacked-area-chart"> Peak Usage Hours </h2><br>
+          <canvas id="areaChart" style="width:100%;max-width:700px"></canvas>
+        </div>
+      </div>
+
+      <div class="second-row">
+        <div class="big-box heat-map">
+          <div id="heatmap"></div>
+        </div>
+      </div>
+
+      <div class="third-row">
+        <div class="med-box pie-box">
+          <h2 class="pie-chart">Usage by Consumer Type</h2><br>
+          <canvas id="myPieChart"></canvas>
+        </div>
+        <div class="internal">
+          <div class="small-box ratings-box">
+            <h2 class="rating-title">Average Rating</h2><br>
+            <div class="star">
+                <svg class="yellow-star" xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="yellow" class="bi bi-star-half" viewBox="0 0 16 16">
+                    <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                </svg>
+                <div class="rating">
+                    <h2>4.5/5</h2>
+                </div>
+            </div>
+          </div>
+
+          <div class="small-box ratings-box bottom-left">
+            <h2 class="rating-title">New Users This Month</h2><br>
+            <div class="star">
+                <div class="rating users">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                  </svg>
+                    <h2>456</h2>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom"></div>
+      
+    </main>
+
+    <!-- chart.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- main js file -->
+    <script src="./js/usage-analytics.js"></script>
+    <!-- histogram -->
+    <script src="./js/histogram.js"></script>
+    <!-- pie chart -->
+    <script src="./js/pie-chart.js"></script>
+    <!-- line-chart -->
+    <script src="./js/line-chart.js"></script>
+    <!-- heat-map -->
+    <script src="./js/heat-map.js"></script>
+    <!-- area-chart -->
+    <script src="./js/area-chart.js"></script>
+  </body>
+</html>
