@@ -2,8 +2,8 @@
 const lineChartData = {
     labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
     datasets: [{
-        label: 'Number of Users',
-        data: [100, 120, 130, 150, 160, 180, 200, 220, 240, 260, 280, 300],
+        label: 'Monthly Bill',
+        data: [100, 120, 10, 50, 20, 180, 90, 220, 240, 260, 180, 300],
         fill: false,
         borderColor: 'rgba(75, 192, 192, 1)',
         borderWidth: 2

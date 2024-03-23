@@ -1,8 +1,8 @@
 // Data for the histogram
 const histogram_data = {
-    labels: ["Anekal", "Bengaluru East", "Bengaluru North", "Bengaluru South", "Yelahanka"],
+    labels: ["January", "February", "March", "April", "May"],
     datasets: [{
-        label: 'Energy Usage',
+        label: 'Units Used',
         data: [300, 50, 100, 40, 200],
         backgroundColor: [
             'rgba(255, 99, 132, 0.8)',

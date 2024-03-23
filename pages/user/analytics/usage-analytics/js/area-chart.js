@@ -1,42 +1,45 @@
-// Generate random data for peak usage across hours
-function generateRandomData() {
-    const data = [];
-    for (let i = 0; i < 24; i++) {
-        data.push(Math.floor(Math.random() * 100)); // Random data (peak usage)
-    }
-    return data;
-}
-
-// Data for the area chart
-const areaChartData = {
-    labels: Array.from({ length: 24 }, (_, i) => `${i}:00`), // Labels for each hour
+// Data for the horizontal bar chart
+const barData = {
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'], // Months
     datasets: [{
-        data: generateRandomData(), // Random data for peak usage across hours
-        fill: true,
-        backgroundColor: 'rgba(255, 99, 132, 0.2)', // Red color with opacity
-        borderColor: 'rgba(255, 99, 132, 1)', // Red color for border
-        borderWidth: 2,
-        label: '', // Empty label to remove it from the legend
+      label: 'Users Units Consumed',
+      data: [150, 120, 180, 200, 170], // Users Units Consumed for each month
+      backgroundColor: 'rgba(255, 99, 132, 0.8)', // Color for Users Units Consumed
+      borderWidth: 1
+    },
+    {
+      label: 'Average Unit Consumption',
+      data: [100, 110, 105, 115, 95], // Average Unit Consumption for each month
+      backgroundColor: 'rgba(54, 162, 235, 0.8)', // Color for Average Unit Consumption
+      borderWidth: 1
     }]
-};
+  };
 
-// Configuration for the area chart
-const areaChartConfig = {
-    type: 'line',
-    data: areaChartData,
+  // Configuration for the horizontal bar chart
+  const config = {
+    type: 'horizontalBar', // Change type to 'horizontalBar'
+    data: barData,
     options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
+      scales: {
+        x: {
+          stacked: true, // Stack bars horizontally
+          title: {
+            display: true,
+            text: 'Months'
+          }
         },
-        plugins: {
-            title: {
-                display: true,
-                text: 'Peak Usage Across Hours of the Day'
-            }
+        y: {
+          title: {
+            display: true,
+            text: 'Units'
+          }
         }
+      }
     }
-};
-// Create the area chart
-const areaChart = new Chart(document.getElementById('areaChart'), areaChartConfig);
+  };
+
+  // Create the horizontal bar chart
+  var myBarChart = new Chart(
+    document.getElementById('horizontalBarChart'),
+    config
+  );
