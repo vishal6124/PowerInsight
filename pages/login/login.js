@@ -34,7 +34,7 @@
     document.querySelector("#login-btn").addEventListener("click", function(){
         let inputCaptchaValue = document.querySelector("#captcha-form").value;
         if (inputCaptchaValue === captchaValue){
-            swal("", "Loggin In!", "success");
+            swal("", "Loggin In Succesfull!", "success");
         }
         else{
             swal("Invalid Captcha");
