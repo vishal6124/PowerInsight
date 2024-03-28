@@ -584,3 +584,27 @@ a {
 .fa-user, .fa-lock, .fa-envelope{
     visibility: hidden;
 }
+
+.input-field{
+  width: 400px; 
+}
+
+.preview {
+  margin-bottom: 20px;
+}
+
+.captcha-refresh{
+  border: none;
+  margin-right: 15px;
+}
+
+.captcha-form{
+  padding: 15px;
+}
+
+.preview{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
