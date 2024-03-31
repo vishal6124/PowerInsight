@@ -1,0 +1,5 @@
+tariff_category_id,tariff_category_name,rate_per_unit
+1LT1,Domestic,Rs 8 / kWh
+1LT2,Commercial,Rs 10 / kWh
+1HT3A,Industrial,Variable
+1LT4,Agricultural,Rs 5 / kWh

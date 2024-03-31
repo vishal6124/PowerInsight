@@ -1,0 +1,101 @@
+feedback_id,user_id,feedback_timestamp,feedback_text,rating
+F34740,U4409,2022-01-19 01:21:45,Smooth transaction process.,4.8
+F19778,U18826,2022-10-07 22:56:25,Prompt response from customer support.,4.3
+F21451,U59896,2022-10-07 05:14:22,Excellent service! Keep up the good work!,4.1
+F16003,U48023,2022-08-15 20:02:49,Prompt response from customer support.,4.4
+F20520,U85062,2021-05-29 02:26:27,Great experience overall.,4.7
+F25944,U14856,2023-06-19 06:40:42,Highly recommend!,4.7
+F28455,U52240,2022-06-12 16:35:59,Highly recommend!,4.2
+F84458,U5708,2023-01-20 10:37:21,Good value for money.,4.2
+F68698,U46103,2022-05-24 23:17:45,Good value for money.,4.9
+F18830,U62179,2021-02-09 19:53:56,Very satisfied with the product.,4.2
+F92931,U7963,2023-08-13 07:34:32,Smooth transaction process.,4.8
+F66072,U38190,2024-03-31 20:12:49,Excellent service! Keep up the good work!,4.2
+F39751,U4027,2023-10-07 07:13:12,Impressed with the quality of service.,4.6
+F59495,U88380,2021-03-01 08:46:11,Smooth transaction process.,4.1
+F23374,U85077,2020-02-26 08:57:58,Appreciate the assistance received.,4.8
+F57610,U45474,2022-11-21 17:19:27,Very satisfied with the product.,4.1
+F8766,U20649,2021-04-30 02:58:53,Prompt response from customer support.,4.9
+F63374,U74398,2020-01-07 17:48:23,Very satisfied with the product.,4.6
+F65879,U54633,2020-03-14 06:35:02,Smooth transaction process.,5.0
+F81086,U81023,2020-09-07 21:48:19,Very satisfied with the product.,4.8
+F7975,U60657,2023-04-21 03:48:43,Smooth transaction process.,4.2
+F13221,U92977,2021-12-09 04:19:43,Great experience overall.,4.5
+F78010,U9752,2023-12-27 10:23:45,Very satisfied with the product.,4.4
+F78657,U6781,2021-11-21 10:06:46,Very satisfied with the product.,4.8
+F99169,U6093,2022-02-24 17:19:42,Great experience overall.,4.7
+F46739,U72232,2023-10-21 16:19:00,Impressed with the quality of service.,4.5
+F4952,U11388,2023-10-10 01:04:54,Appreciate the assistance received.,4.2
+F93966,U30992,2021-12-17 15:55:02,Appreciate the assistance received.,4.9
+F86689,U91398,2024-02-21 19:07:17,Highly recommend!,4.4
+F54653,U45592,2021-03-15 08:33:27,Good value for money.,5.0
+F11466,U33245,2020-03-01 21:10:34,Highly recommend!,4.1
+F42005,U55995,2024-01-11 16:46:38,Very satisfied with the product.,4.2
+F54007,U92130,2023-02-16 16:52:23,Outstanding performance!,4.1
+F52957,U72610,2021-07-22 01:03:54,Very satisfied with the product.,4.7
+F13972,U41875,2023-03-09 19:23:57,Appreciate the assistance received.,4.3
+F87054,U6595,2020-04-30 15:16:37,Outstanding performance!,4.6
+F92935,U50052,2020-02-27 12:21:23,Smooth transaction process.,4.8
+F10000,U94012,2023-02-13 05:06:48,Very satisfied with the product.,4.6
+F82924,U8417,2023-09-12 06:17:00,Appreciate the assistance received.,4.3
+F86786,U20866,2023-04-01 05:46:08,Great experience overall.,4.7
+F10402,U63330,2020-08-11 02:11:48,Excellent service! Keep up the good work!,4.0
+F10866,U52815,2023-08-18 16:56:08,Smooth transaction process.,4.9
+F1968,U92059,2022-09-23 23:25:37,Good value for money.,4.7
+F91757,U41114,2021-04-08 08:39:39,Smooth transaction process.,4.2
+F92879,U44885,2022-03-25 00:57:50,Smooth transaction process.,4.4
+F39491,U49932,2023-07-02 20:30:04,Appreciate the assistance received.,4.9
+F75546,U52298,2022-06-18 18:06:35,Very satisfied with the product.,4.1
+F95340,U80782,2020-12-28 12:52:28,Impressed with the quality of service.,4.3
+F77884,U41054,2023-12-04 10:51:11,Highly recommend!,4.5
+F68182,U43110,2022-07-29 14:27:46,Impressed with the quality of service.,4.5
+F65561,U85679,2021-05-19 12:26:21,Prompt response from customer support.,4.2
+F86896,U17926,2023-06-25 09:21:17,Impressed with the quality of service.,4.3
+F36372,U28383,2023-01-21 06:26:50,Outstanding performance!,4.6
+F48087,U55161,2024-03-16 20:39:06,Excellent service! Keep up the good work!,4.0
+F51486,U39542,2024-02-12 12:06:49,Appreciate the assistance received.,4.4
+F71055,U95849,2023-12-04 15:49:51,Highly recommend!,4.7
+F12003,U33881,2023-08-31 07:20:29,Prompt response from customer support.,4.2
+F99449,U31910,2021-11-16 22:50:09,Highly recommend!,4.8
+F98610,U44268,2021-03-14 22:39:56,Highly recommend!,4.2
+F91233,U33308,2023-12-30 00:33:16,Outstanding performance!,4.1
+F25514,U74313,2022-09-17 15:07:35,Very satisfied with the product.,5.0
+F75000,U72984,2022-01-12 03:49:12,Prompt response from customer support.,4.5
+F58276,U60934,2020-08-06 04:00:44,Smooth transaction process.,4.3
+F41656,U80200,2023-04-05 16:50:02,Outstanding performance!,4.6
+F98420,U17219,2024-01-19 08:07:03,Smooth transaction process.,4.3
+F47387,U40272,2021-03-11 00:34:20,Great experience overall.,4.8
+F77123,U81078,2022-08-18 00:29:28,Impressed with the quality of service.,4.9
+F33217,U2794,2022-07-29 18:37:10,Good value for money.,4.4
+F75087,U79011,2022-04-16 03:16:03,Outstanding performance!,4.3
+F34811,U8080,2021-06-02 10:00:39,Very satisfied with the product.,4.9
+F53085,U48902,2023-05-07 16:53:21,Prompt response from customer support.,4.9
+F96243,U52040,2021-08-06 19:16:37,Good value for money.,4.0
+F25526,U74210,2020-04-18 09:35:10,Impressed with the quality of service.,4.4
+F38940,U19738,2021-05-28 03:57:43,Excellent service! Keep up the good work!,4.2
+F75964,U20621,2021-05-04 15:38:37,Great experience overall.,4.0
+F6228,U80108,2020-02-14 05:51:54,Highly recommend!,4.4
+F50748,U59318,2022-02-03 21:56:33,Impressed with the quality of service.,4.9
+F8815,U20548,2021-11-18 19:03:07,Prompt response from customer support.,4.6
+F59871,U68335,2024-03-11 04:06:10,Appreciate the assistance received.,4.5
+F21521,U91941,2024-01-29 13:54:35,Smooth transaction process.,4.7
+F46605,U79888,2021-10-18 07:05:47,Impressed with the quality of service.,4.5
+F65504,U63148,2021-09-08 19:35:41,Excellent service! Keep up the good work!,4.2
+F75942,U48172,2021-10-22 05:38:28,Highly recommend!,4.6
+F42165,U81433,2021-03-13 05:53:32,Smooth transaction process.,4.0
+F51584,U93358,2024-03-01 19:21:42,Prompt response from customer support.,5.0
+F30666,U47583,2020-11-15 05:37:08,Outstanding performance!,4.8
+F33600,U79837,2021-06-28 17:57:49,Smooth transaction process.,4.7
+F99759,U40636,2022-03-20 20:08:00,Highly recommend!,4.3
+F37491,U93225,2020-09-01 20:31:07,Smooth transaction process.,4.7
+F95869,U50660,2021-11-22 12:35:37,Good value for money.,4.0
+F17570,U89996,2023-04-06 19:52:48,Outstanding performance!,4.3
+F45873,U97851,2022-11-25 04:20:34,Very satisfied with the product.,4.9
+F83529,U62244,2024-02-14 03:13:28,Excellent service! Keep up the good work!,4.1
+F12363,U99337,2022-09-27 09:16:51,Excellent service! Keep up the good work!,4.4
+F15066,U94783,2023-12-11 20:10:34,Outstanding performance!,4.4
+F77452,U70124,2021-07-17 14:43:29,Outstanding performance!,4.9
+F27533,U49529,2023-04-26 08:04:12,Impressed with the quality of service.,4.2
+F42439,U13547,2022-07-06 22:30:03,Smooth transaction process.,4.7
+F8979,U75896,2021-06-21 15:18:04,Excellent service! Keep up the good work!,4.2
+F90258,U33584,2021-07-07 14:57:29,Highly recommend!,5.0
